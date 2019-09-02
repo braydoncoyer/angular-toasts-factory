@@ -1,0 +1,33 @@
+h3 {
+  font-size: 20px;
+}
+
+.toast {
+  min-width: 300px;
+  max-width: 400px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #29D2AD, #06CE81);
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  &__content {
+    display: flex;
+    padding: 10px;
+
+    &-status {
+      background-color: black;
+      height: 50px;
+      width: 50px;
+    }
+
+    &-body {
+      flex-grow: 1;
+
+      &-label {
+        margin-bottom: 5px;
+      }
+    }
+
+  }
+}
